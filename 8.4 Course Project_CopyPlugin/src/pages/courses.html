@@ -44,12 +44,10 @@
             class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
           >
             <li>
-              <a href="#" class="nav-link px-2 link-secondary">Home</a>
+              <a href="../index.html" class="nav-link px-2 link-dark">Home</a>
             </li>
             <li>
-              <a href="pages/courses.html" class="nav-link px-2 link-dark"
-                >Courses</a
-              >
+              <a href="#" class="nav-link px-2 link-secondary">Courses</a>
             </li>
             <li><a href="#" class="nav-link px-2 link-dark">Teachers</a></li>
             <li><a href="#" class="nav-link px-2 link-dark">About Us</a></li>
@@ -96,84 +94,33 @@
     </header>
 
     <main>
-      <!-- banner  -->
-      <div class="container p-5">
-        <div class="row align-items-center">
-          <div class="col">
-            <p class="fs-1 typed"></p>
-            <p class="fs-5">
-              Our course is rated excellent by over 42,000 people
-            </p>
-            <p class="fs-6">
-              Today, more than 48,000 people have already studied at our
-              university in various fields: programming, photography, marketing
-              and management
-            </p>
-            <div>
-              <button type="button" class="btn btn-primary">
-                See Pricing Plans
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Check Pricing
-              </button>
+      <!-- Search Section  -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="d-flex w-50 flex-column course-banner align-items-center">
+            <h1 class="p-5">Large Selection of Courses !</h1>
+            <span class="pb-5"
+              >Learn from some of the best instructors in the industry. We offer
+              various topics such as tech , finance , home imporovement and
+              personality building coruses. Check out our courses now !!
+            </span>
+            <div class="input-group-lg pb-5" style="width: 450px">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Courses"
+                aria-label="Search Courses"
+                aria-describedby="addon-wrapping"
+                style="width: 100%"
+              />
             </div>
-          </div>
-          <div class="col">
-            <img id="banner-image" src="./assets/banner-image.png" alt="banner-img" />
           </div>
         </div>
       </div>
 
       <!-- Features -->
-
-      <div class="container p-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <div class="icon-background">
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Get Certified</h5>
-                <p class="card-text">
-                  Take courses and get certified to get your next deam job and
-                  speed up on your carrer ladder. You receive certificate at the
-                  end of the course.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="icon-background">
-                <i class="fa fa-globe" aria-hidden="true"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Global Learning</h5>
-                <p class="card-text">
-                  Take course at the comfort of your home at your convinient
-                  time. You also have the option to skip and rewind the lectures
-                  as per your suited speed.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="icon-background">
-                <i class="fa fa-laptop" aria-hidden="true"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Live Courses</h5>
-                <p class="card-text">
-                  Live lessons also available. Clear doubts online or in person
-                  with qualifed teachers. You can schedule online classes as per
-                  your convinience.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="container pb-5">
+        <div class="d-flex justify-content-between" id="course-list"></div>
       </div>
     </main>
 
@@ -184,17 +131,65 @@
           <div class="row">
             <div class="col-2">
               <h5>Information</h5>
-              <ul class="nav flex-column" id="footer-column-1"></ul>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Contact us</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Blog</a>
+                </li>
+              </ul>
             </div>
 
             <div class="col-2">
               <h5>Top course</h5>
-              <ul class="nav flex-column" id="footer-column-2"></ul>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Flutter</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Javsacript</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Java</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Nodejs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Python mastery</a>
+                </li>
+              </ul>
             </div>
 
             <div class="col-2">
               <h5>Section</h5>
-              <ul class="nav flex-column" id="footer-column-3"></ul>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
             </div>
 
             <div class="col-4 offset-1">
@@ -252,6 +247,5 @@
         </footer>
       </div>
     </div>
-  </body>
-  <script src="../dist/index.bundle.js"></script>
+  </body>  
 </html>

@@ -4,7 +4,7 @@ import bootstrap from "bootstrap";
 import Typed from "typed.js";
 import validate from "validate.js";
 import toastr from "toastr";
-// import banner from "./assets/banner-image.png"
+// import banner from './assets/banner-image.png';
 
 import "./index.css";
 import "./_vendor.scss";
