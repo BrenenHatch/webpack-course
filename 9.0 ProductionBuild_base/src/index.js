@@ -1,4 +1,3 @@
-import $ from "jquery";
 import _ from "lodash";
 import bootstrap from "bootstrap";
 import Typed from "typed.js";
@@ -63,13 +62,13 @@ buildFooterItems(footerCol2, footerCol2Items);
 buildFooterItems(footerCol3, footerCol3Items);
 
 $("#pricing-plan").on("click", function () {
-  import (/* webpackChunkName: "modal" */ "./components/modal").then((module) => {
-    const showModal = module.default;
-    showModal();
-    $("#myModal").css("display", "block");
-  })
-
-  
+  import(/* webpackChunkName: "modal" */ "./components/modal").then(
+    (module) => {
+      const showModal = module.default;
+      showModal();
+      $("#myModal").css("display", "block");
+    }
+  );
 });
 
 // const bannerEl = $("#banner-image")[0];
